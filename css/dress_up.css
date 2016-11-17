@@ -1,0 +1,70 @@
+.slideshow {
+  height: 400px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;    
+  transform: translate3d(0, 0, 0);
+}
+
+.slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(1.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.slideshow .mover-1 {
+  animation: moveSlideshow 24s linear infinite;
+}
+.slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -20px;
+  animation: moveSlideshow 24s linear infinite;
+}
+
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+
+
+
+#main_block{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    background-color: #fff;
+}
+#main_block h1{
+    font-size: 500%;
+    font-weight: bold;
+}
+#main_block h3{
+    font-size: 350%;
+}
+#main_block h2{
+    font-size: 450%; 
+    font-weight: bold;
+}
+#take_quiz{
+    
+    font-size: 150%;
+    margin-bottom: 2%;  
+}
+#social {
+    width: 40%;
+}
+#footer{
+    font-size: 600%;
+}
+
+
+
+

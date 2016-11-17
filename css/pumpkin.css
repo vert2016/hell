@@ -1,0 +1,38 @@
+#main_block{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    background-color: #fff;
+}
+#main_block h1{
+    font-size: 300%;
+}
+#main_block h3{
+    font-size: 150%;
+}
+#main_block h2{
+    font-size: 250%; 
+}
+#take_quiz{
+    
+    font-size: 150%;
+    margin-bottom: 2%;  
+}
+#social {
+    width: 40%;
+}
+/*.back_main_block{
+    position: relative;
+    height: 200px;
+    width: 2526px;
+    background: url(spider.png);
+    transform: translate3d(0, 0, 0);
+    animation: moveSlideshow 12s linear infinite;
+}
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}*/
+
+

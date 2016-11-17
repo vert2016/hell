@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Butch;
+    src: url(fonts/butch.otf),
+}
+@font-face {
+    font-family: Intro;
+    src: url(fonts/kendrick.otf);
+}
+*{
+    margin: 0px auto;
+    max-width: 1920px;
+}
+
+body{
+    margin:0px;
+    font-family: "Intro";
+    font-size: 100%;
+    width: 100%;
+    
+}
+
+#background_picture{
+    width: 100%;
+    height: auto;
+    
+}
+
+#first {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    padding: 0 10px;
+    border: solid 2px;
+    color: #fff;
+    font-family: "Butch";
+    font-size: 100%;
+    font-weight: bold;
+    word-spacing: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #888888;
+}
+
+header{
+   
+    margin-bottom: 0px;
+    margin-right: opx;
+}
+
+#leftside{
+    width: 30%;
+    float: left;
+    padding: 5% 5%;
+    font-size: 130%;
+}
+#leftside a {
+    text-decoration: none;
+}
+#social{
+    width: 60%;
+    margin: 0 auto;
+    display: inline;
+    display: flex;
+    justify-content: center;  
+}
+#social img{
+    margin: 20px 1px;
+}
+
+#take_quiz {
+    text-align: center;
+    margin: 0 auto;
+}
+#take_quiz a{
+    text-decoration: none;
+    font-size: 140%;
+    padding: 5px 10px;
+    background-color: #cc740a;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+#take_quiz a:hover{
+    background-color: #f69e0d;
+    box-shadow: 2px 2px 2px #db4b0b;
+    
+}
+
+
+footer {
+    clear: both;
+    background-color: #000000;
+    margin-bottom: 0px;
+}
+footer p {
+    color: #fff;
+   text-align: center;
+   margin: 0px;
+    font-size: 100%;
+     padding: 1%;
+}
+
+
+
