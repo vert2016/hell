@@ -1,0 +1,70 @@
+* {
+    margin: 0px auto;
+    max-width: 460px;
+}
+
+#first {
+    font-size: 45%;
+    position: absolute;
+    padding: 0 5px;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+body {
+    width: 100%;
+    font-size: 80%;
+}
+
+#main,
+#main_block {
+    width: 100%;
+    margin-top: 23%;
+}
+
+#main form {
+    width: 90%;
+}
+
+nav {
+    margin: 0 auto;
+    padding-bottom: 0px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#open_quiz {
+    width: 80%;
+}
+
+#main_block h1 {
+    font-size: 200%;
+}
+
+#quiz,
+#quiz_pressed,
+#contacts,
+#contacts_pressed,
+#flag,
+#flag_pressed,
+#pumpkin,
+#pumpkin_pressed,
+#hat,
+#hat_pressed {
+    width: 29%;
+}
+
+#background_picture {
+    width: 100%;
+    height: auto;
+}
+
+.slideshow>div {
+    max-width: 2256px;
+}
+
+#take_quiz_pumpkin {
+    font-size: 80%;
+}

@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Helloween</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="js/animate.min.css" type="text/css">
-        <link rel="stylesheet" href="css/index.css" type="text/css" />
-         <link rel="stylesheet" href="css/index-sm.css" media="(min-width: 450px)">
-        <link rel="stylesheet" href="css/index-md.css" media="(max-width: 800px)">
-        <link rel="stylesheet" href="css/buttons.css" type="text/css" />
-        <link rel="stylesheet" href="css/quiz.css" type="text/css">
-	</head>
-    <body>
-       <header>
-           <img src="images/background.jpg" alt="Helloween background" id="background_picture">
-               <div id="first">
-                   <h1>Helloween  Party</h1>
-                   <h1>"Some Club"</h1>
-                   <h1>31.10</h1>
-                </div>
-        </header> 
-        <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-offset="-2" data-wow-delay="1s">
-            <a href="index.html"><img src="images/icons/flag.png" alt="Flag Home" id="flag"></a>
-            <a href="dress_up.html"><img src="images/icons/hat.png" alt="Dress Up" id="hat"></a>
-            <a href="pumpkin.html"><img src="images/icons/pumpkin.png" alt="Carve your Jack o Lantern" id="pumpkin"></a>
-            <a href="quiz.html"><img src="images/icons/quiz.png" alt="Quiz" id="quiz_pressed"></a>
-            <a href="contacts.html"><img src="images/icons/contacts.png" alt="Contacts" id="contacts"></a>
-        </nav>
-        
-        <article id="main_block">
-            <h1>Do you want to get free tickets?</h1>
-            <br>
-            <h2>It takes you just several minutes!</h2>
-            <br>
-            <h1  id="open_quiz">Take a quiz!<img src="images/arrow.png" id="arrow"></h1>
-            <div id="quiz_panel">
-                <form action="https://formspree.io/marta.bzl@gmail.com"
-          method="post" style="text-align:center;">
-                <fieldset style="border:0px;">
-                    <legend><h3>Personal information:</h3></legend>
+
+<head>
+    <title>Helloween</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/buttons.css" type="text/css" />
+    <link rel="stylesheet" href="css/quiz.css" type="text/css">
+    <link rel="stylesheet" href="css/index-md.css" media="(max-width: 800px) and (min-width:461px" )>
+    <link rel="stylesheet" href="css/index-sm.css" media="(max-width: 460px)">
+</head>
+
+<body>
+    <header>
+        <img src="images/background.jpg" alt="Helloween background" id="background_picture">
+        <a href="index.html">
+            <div id="first">
+                <h1>Helloween Party</h1>
+                <h1>"Some Club"</h1>
+                <h1>31.10</h1>
+            </div>
+        </a>
+    </header>
+    <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-offset="-2" data-wow-delay="1s">
+        <a href="index.html"><img src="images/icons/flag.png" alt="Flag Home" id="flag"></a>
+        <a href="dress_up.html"><img src="images/icons/hat.png" alt="Dress Up" id="hat"></a>
+        <a href="pumpkin.html"><img src="images/icons/pumpkin.png" alt="Carve your Jack o Lantern" id="pumpkin"></a>
+        <a href="quiz.html"><img src="images/icons/quiz.png" alt="Quiz" id="quiz_pressed"></a>
+        <a href="contacts.html"><img src="images/icons/contacts.png" alt="Contacts" id="contacts"></a>
+    </nav>
+
+    <article id="main_block">
+        <h1>Do you want to get free tickets?</h1>
+        <br>
+        <h2>It takes you just several minutes!</h2>
+        <br>
+        <h1 id="open_quiz">Take a quiz!<img src="images/arrow.png" id="arrow"></h1>
+        <div id="quiz_panel">
+            <form action="https://formspree.io/marta.bzl@gmail.com" method="post">
+                <fieldset>
+                    <legend id="quiz_personal_information">
+                        <h3>Personal information:</h3>
+                    </legend>
                     <br>
                     <label for="userName">Your first name:</label>
-                    <input type="text" name="name" placeholder="Your first name" id="userName">
+                    <input type="text" name="name" placeholder="Your first name" id="userName" required>
                     <br>
                     <label for="email">Your second name:</label>
-                    <input type="text" name="name" placeholder="Your second name" id="email">
+                    <input type="text" name="name" placeholder="Your second name" id="email" required>
                     <br>
-                    <label for="email">Email:</label>
-                    <input type="email" name="_replyto" placeholder="Email" required>
+                    <label for="phone">Email:</label>
+                    <input type="email" name="_replyto" placeholder="Email" required id="phone">
                     <br>
                     <h3>Your age:</h3>
                     <input type="radio" name="age" id="age" value="10-20">
@@ -85,7 +90,7 @@
                     </select>
                     <br>
                 </fieldset>
-                <fieldset style="border:0px;">
+                <fieldset>
                     <h3>How did you get to know about the party:</h3>
                     <input type="checkbox" name="how" id="name" value="school">
                     <label for="how">Friends</label>
@@ -99,8 +104,8 @@
                     <label for="comment">Others</label>
                     <textarea id="comment" placeholder="Your version"></textarea>
                 </fieldset>
-                <fieldset style="border:0px">
-                    
+                <fieldset>
+
                     <h3>What date is Halloween?</h3>
                     <input type="radio" name="date" id="date" value="30/10">
                     <label for="date">30/10</label>
@@ -126,25 +131,23 @@
                     <br>
                     <button type="submit" name="submit" value="send" id="form_button" autofocus>Submit</button>
                 </fieldset>
-             </form>
-           </div>     
-        </article>
-        <!--<article id="second">
-            <h1>Thank You for taking part in our questionnaire!</h1>
-            <h1>Further information about free ickets you will get at your email</h1>
-           
-        </article>-->
-        <article>
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.617920234923!2d24.04148831570908!3d49.83084597939475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5ca88300ed%3A0xebbd75e48b9d1230!2z0LLRg9C70LjRhtGPINCX0LXQu9C10L3QsCwgNjcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1478001061860" width="99.6%" height="250" allowfullscreen></iframe>
-        </article>
-        <footer>
-            <p>All rights reserved, 2016</p>
-        </footer>
-        
-       <script src="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/form.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script>new WOW().init();</script>  
-    </body>
+            </form>
+        </div>
+    </article>
+    <article>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.617920234923!2d24.04148831570908!3d49.83084597939475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5ca88300ed%3A0xebbd75e48b9d1230!2z0LLRg9C70LjRhtGPINCX0LXQu9C10L3QsCwgNjcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1478001061860"
+            width="99.6%" height="250" allowfullscreen></iframe>
+    </article>
+    <footer>
+        <p>All rights reserved, 2016</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
 </html>

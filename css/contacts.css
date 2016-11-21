@@ -1,20 +1,33 @@
-#main_block{
+#main_block {
     margin: 0 auto;
     text-align: center;
     width: 60%;
 }
-#main_block h1{
+
+#main_block h1 {
     font-size: 300%;
 }
-#main_block h3{
+
+#main_block h3 {
     font-size: 150%;
 }
 
-#take_quiz{
-    
+#take_quiz {
     font-size: 150%;
-    margin-bottom: 2%;  
+    margin-bottom: 2%;
 }
+
 #social {
     width: 40%;
+}
+
+#contacts_pressed {
+    background-color: #db4b0b;
+    border: 0px solid;
+    border-radius: 500px;
+    box-shadow: 2px 2px 2px #8e2800;
+}
+
+#contacts_pressed:hover {
+    background-color: #db4b0b;
 }

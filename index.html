@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-		<title>Helloween Party</title>
-		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link rel="stylesheet" href="js/animate.min.css" type="text/css">
-        <link rel="stylesheet" href="css/index.css" type="text/css" />
-         <link rel="stylesheet" href="css/index-sm.css" media="(min-width: 450px)">
-        <link rel="stylesheet" href="css/index-md.css" media="(max-width: 800px)">
-        <link rel="stylesheet" href="css/buttons.css" type="text/css" />
-        <link rel="stylesheet" href="css/home.css" type="text/css">
-	</head>
-    <body>
-       <header>
-           <img src="images/background.jpg" alt="Helloween background" id="background_picture">
-               <div id="first">
-                   <h1>Helloween  Party</h1>
-                   <h1>"Some Club"</h1>
-                   <h1>31.10</h1>
-                </div>
-        </header> 
-        <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-offset="-2" data-wow-delay="1s">
-            <a href="index.html"><img src="images/icons/flag.png" alt="Flag Home" id="flag_pressed"></a>
-            <a href="dress_up.html"><img src="images/icons/hat.png" alt="Dress Up" id="hat"></a>
-            <a href="pumpkin.html"><img src="images/icons/pumpkin.png" alt="Carve your Jack o Lantern" id="pumpkin"></a>
-            <a href="quiz.html"><img src="images/icons/quiz.png" alt="Quiz" id="quiz"></a>
-            <a href="contacts.html"><img src="images/icons/contacts.png" alt="Contacts" id="contacts"></a>
-        </nav>
-           
-       
-       
-        <article id="main">
-            <section>
-                <h1 class="center_text">Helloween Party</h1>
-                <h1 class="center_text">"Some Club"</h1>
-                <p id="paragraph_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <h1 class="center_text">Get a 10% DISCOUNT!</h1>
-                <h1 class="center_text title_move">Register now!</h1>
-                <form  action="https://formspree.io/marta.bzl@gmail.com"
-          method="post" id="registration">
-                    <label for="userName">Your name:</label>
-                    <input type="text" name="userName" id="userName" placeholder="Your name" required>
-                    <br>
-                    <label for="email">Email:</label>
-                    <input type="email" name="_replyto" id="email" placeholder="Email" required>
-                    <br>
-                    <label for="phone">Your phone number: +38</label>
-                    <input type="text" name="phone" id="phone" placeholder="067 6767676" pattern="[0-9]{3}[0-9]{7}" required>
-                    <br>
-                    <button type="submit" name="submit" value="send" id="form_button" autofocus>Submit</button>
-                </form>
-                <section id="social">
+
+<head>
+    <title>Helloween Party</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="js/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/buttons.css" type="text/css" />
+    <link rel="stylesheet" href="css/home.css" type="text/css">
+    <link rel="stylesheet" href="css/index-md.css" media="(max-width: 800px) and (min-width:461px" )>
+    <link rel="stylesheet" href="css/index-sm.css" media="(max-width: 460px)">
+</head>
+
+<body>
+    <header>
+        <img src="images/background.jpg" alt="Helloween background" id="background_picture">
+        <a href="index.html">
+            <div id="first">
+                <h1>Helloween Party</h1>
+                <h1>"Some Club"</h1>
+                <h1>31.10</h1>
+            </div>
+        </a>
+    </header>
+    <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-offset="-2" data-wow-delay="1s">
+        <a href="index.html"><img src="images/icons/flag.png" alt="Flag Home" id="flag_pressed"></a>
+        <a href="dress_up.html"><img src="images/icons/hat.png" alt="Dress Up" id="hat"></a>
+        <a href="pumpkin.html"><img src="images/icons/pumpkin.png" alt="Carve your Jack o Lantern" id="pumpkin"></a>
+        <a href="quiz.html"><img src="images/icons/quiz.png" alt="Quiz" id="quiz"></a>
+        <a href="contacts.html"><img src="images/icons/contacts.png" alt="Contacts" id="contacts"></a>
+    </nav>
+
+    <article id="main">
+        <section>
+            <h1 class="center_text">Helloween Party</h1>
+            <h1 class="center_text">"Some Club"</h1>
+            <p id="paragraph_main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1 class="center_text">Get a 10% DISCOUNT!</h1>
+            <h1 class="center_text title_move wow pulse" data-wow-iteration="infinite" data-wow-duration="2s">Register now!</h1><br>
+            <form action="https://formspree.io/marta.bzl@gmail.com" method="post" onsubmit="return validateForm()" id="registration">
+                <label for="userName">Your name:</label>
+                <input type="text" name="userName" id="userName" placeholder="Your name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="_replyto" id="email" placeholder="Email" required>
+                <br>
+                <label for="phone">Your phone number: +38</label>
+                <input type="text" name="phone" id="phone" placeholder="067 6767676" pattern="[0-9]{3}[0-9]{7}" required>
+                <br>
+                <button type="submit" name="submit" value="send" id="form_button" autofocus>Submit</button>
+            </form>
+            <section id="social">
                 <a href=""><img src="images/fb.png"></a>
                 <a href=""><img src="images/Twitter.png"></a>
                 <a href=""><img src="images/yt.png"></a>
@@ -59,32 +61,22 @@
             <section id="take_quiz">
                 <a href="quiz.html">Get free tickets!</a>
             </section>
-            </section>
-        </article>
-        <article>
-            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.617920234923!2d24.04148831570908!3d49.83084597939475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5ca88300ed%3A0xebbd75e48b9d1230!2z0LLRg9C70LjRhtGPINCX0LXQu9C10L3QsCwgNjcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1478001061860" width="99.6%" height="450" allowfullscreen></iframe>
-        </article>
-        <footer>
-            <p>All rights reserved, 2016</p>
-        </footer>
-        
-        
-        
-        
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/form.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script>new WOW().init();</script>
-        <!--<script>
-            wow = new WOW( {
-                boxClass:     'wow',
-                animateClass: 'animated',
-                offset:       100
-                }
-            );
+        </section>
+    </article>
+    <article>
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.617920234923!2d24.04148831570908!3d49.83084597939475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add5ca88300ed%3A0xebbd75e48b9d1230!2z0LLRg9C70LjRhtGPINCX0LXQu9C10L3QsCwgNjcsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1478001061860"
+            width="99.6%" height="450" allowfullscreen></iframe>
+    </article>
+    <footer>
+        <p>All rights reserved, 2016</p>
+    </footer>
 
-            wow.init();
-        </script>-->
-    </body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
 </html>

@@ -4,34 +4,41 @@
     border-radius: 500px;
     box-shadow: 2px 2px 2px #8e2800;
 }
+
 #flag_pressed:hover {
     background-color: #db4b0b;
 }
-#main{
+
+#main {
     margin: 0 auto;
     text-align: center;
     width: 60%;
     background-color: #fff;
 }
-#main h1{
+
+#main h1 {
     font-size: 300%;
     font-weight: bold;
 }
-#main_block h3{
+
+#main_block h3 {
     font-size: 150%;
 }
-#main_block h2{
-    font-size: 150%; 
+
+#main_block h2 {
+    font-size: 150%;
     font-weight: bold;
 }
-#take_quiz{
-    
+
+#take_quiz {
     font-size: 150%;
-    margin-bottom: 2%;  
+    margin-bottom: 2%;
 }
+
 #social {
     width: 40%;
 }
+
 #paragraph_main {
     font-size: 150%;
 }
@@ -41,11 +48,12 @@
     width: 60%;
     padding: 2%;
     background-color: #fff;
-    box-shadow: 0 4px 8px 0; 
+    box-shadow: 0 4px 8px 0;
     margin: 0 auto;
 }
+
 #form_button {
-    font-size: 80%;
+    font-size: 100%;
     background-color: #cc740a;
     border: solid 0px;
     border-radius: 15px;
@@ -53,8 +61,21 @@
     padding-left: 3%;
     padding-right: 3%
 }
-#form_button:hover:active:focus{
+
+#form_button:hover {
     border: solid 0px;
+}
+
+#form_button:focus {
+    border: solid 0px;
+    background-color: #db4b0b;
+    outline: none;
+}
+
+#form_button:active {
+    border: solid 0px;
+    background-color: #db4b0b;
+    outline: none;
 }
 
 #map {

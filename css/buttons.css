@@ -2,13 +2,13 @@ nav {
     width: 70%;
     margin: 2% auto;
     display: flex;
-    height: 150px; 
-    justify-content: space-around;  
+    height: 150px;
+    justify-content: space-around;
     clear: both;
 }
 
 nav img {
-  width: 100%;
+    width: 100%;
 }
 
 #flag {
@@ -16,40 +16,42 @@ nav img {
     border: 0px solid;
     border-radius: 500px;
 }
-#flag:hover{
+
+#flag:hover {
     background-color: #db4b0b;
 }
 
-#flag:active{
+#flag:active {
     background-color: #db4b0b;
     box-shadow: 2px 2px 2px #8e2800;
 }
-
-
 
 #hat {
     background-color: #cc740a;
     border: 0px solid;
     border-radius: 500px;
 }
-#hat:hover{
+
+#hat:hover {
     background-color: #db4b0b;
 }
-#hat:active{
+
+#hat:active {
     background-color: #db4b0b;
     box-shadow: 2px 2px 2px #8e2800;
 }
-
 
 #pumpkin {
     background-color: #cc740a;
     border: 0px solid;
     border-radius: 500px;
 }
-#pumpkin:hover{
+
+#pumpkin:hover {
     background-color: #db4b0b;
 }
-#pumpkin:active{
+
+#pumpkin:active {
     background-color: #db4b0b;
     box-shadow: 2px 2px 2px #8e2800;
 }
@@ -59,23 +61,27 @@ nav img {
     border: 0px solid;
     border-radius: 500px;
 }
-#quiz:hover{
+
+#quiz:hover {
     background-color: #db4b0b;
 }
-#quiz:active{
+
+#quiz:active {
     background-color: #db4b0b;
     box-shadow: 2px 2px 2px #8e2800;
 }
 
-#contacts{
+#contacts {
     background-color: #cc740a;
     border: 0px solid;
     border-radius: 500px;
 }
-#contacts:hover{
+
+#contacts:hover {
     background-color: #db4b0b;
 }
-#contacts:active{
+
+#contacts:active {
     background-color: #db4b0b;
     box-shadow: 2px 2px 2px #8e2800;
 }
